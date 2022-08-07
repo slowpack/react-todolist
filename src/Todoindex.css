@@ -1,0 +1,20 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+.to-bgImg {
+  background-image: url(../public/1.jpg);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-clip: padding-box;
+  min-height: 100vh;
+  background-size: cover;
+}
+.to-header {
+  text-align: center;
+  margin: 20px;
+  font-size: 100px;
+  font-weight: 100;
+  color: rgb(245, 245, 160);
+  text-shadow: 5px 5px 5px rgba(0, 0, 0, 0.5);
+}
