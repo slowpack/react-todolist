@@ -12,6 +12,9 @@ export default function Header(props) {
     }
     setTimeout(() => {
       headRef.current.className = "App-header fadeP downSea";
+      const kill = document.getElementsByClassName("App-header")[0];
+      console.log(kill);
+      kill.remove();
     }, 2000);
     imgRef.current.className = " App-logo2";
 
