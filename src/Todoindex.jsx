@@ -1,11 +1,16 @@
 import React, { Fragment, useEffect, useState } from "react";
-import "./Todoindex.css";
+import "./Todoindex.less";
+import Header from "./components/Header";
+import Todolist from "./components/Todolist";
+import Footer from "./components/Footer";
 export default function Todoindex() {
   return (
-    <Fragment>
-      <div className="to-bgImg">
-        <h1 className="to-header">任务清单</h1>
+    <div className="backG">
+      <div className="fant">
+        <Header></Header>
+        <Todolist></Todolist>
+        <Footer></Footer>
       </div>
-    </Fragment>
+    </div>
   );
 }
